@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+img {
+  float: right;
+  border: 5px solid red;
+}
+p {
+  color: blue;
+}
+h1{
+  font-style: italic;
+  color: yellow;
+  background-color: green;
+  padding: 50px;
+  text-align: center;
+}
