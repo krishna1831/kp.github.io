@@ -1,4 +1,4 @@
-<script>window.onload = function () {
+window.onload = function () {
     alert(1)
 };
-</script>
+
