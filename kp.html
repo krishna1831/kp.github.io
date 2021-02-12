@@ -11,7 +11,7 @@
 	.then(response => {
         document.getElementById("id01").innerHTML += (" Country: ", response.country);
 	document.getElementById("id01").innerHTML += (" City: ", response.city);
-	document.getElementById("id01").innerHTML += (" ip: ", response.query);		
+	document.getElementById("id01").innerHTML += (" ip: ", bye response.query);		
 	 })
  	.catch((data, status) => {
 	document.getElementById("id01").innerHTML += (' failed to search your country');
