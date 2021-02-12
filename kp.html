@@ -9,9 +9,9 @@
 	fetch('https://extreme-ip-lookup.com/json/')
 	.then( res => res.json())
 	.then(response => {
-        document.getElementById("id01").innerHTML += ("Country: ", response.country);
-	document.getElementById("id01").innerHTML += ("City: ", response.city);
-	document.getElementById("id01").innerHTML += ("ip: ", response.ip);		
+        document.getElementById("id01").innerHTML += (" Country: ", response.country);
+	document.getElementById("id01").innerHTML += (" City: ", response.city);
+	document.getElementById("id01").innerHTML += (" ip: ", response.ip);		
 	 })
  	.catch((data, status) => {
 	document.getElementById("id01").innerHTML += ('failed to search your country');
