@@ -5,5 +5,14 @@
 	  <title>Processing.JS inside Webpages: Template</title> 
   <body>
 	  <h1 id="id01">hello</h1>
+<script>
+	fetch('https://extreme-ip-lookup.com/json/')
+	.then( res => res.json())
+	.then(response => {
+ 	console.log("Country: ", response.country);
+ 	})
+ 	.catch((data, status) => {
+        console.log('Request failed');
+})</script>
   </body>
 </html>
