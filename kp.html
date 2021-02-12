@@ -9,7 +9,7 @@
 	fetch('https://extreme-ip-lookup.com/json/')
 	.then( res => res.json())
 	.then(response => {
- 	alert("Country: ", response.country);
+ 	document.alert(("Country: ", response.country));
  	})
  	.catch((data, status) => {
         alert('Request failed');
