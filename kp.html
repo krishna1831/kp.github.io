@@ -9,10 +9,11 @@
 	fetch('https://extreme-ip-lookup.com/json/')
 	.then( res => res.json())
 	.then(response => {
- 	document.alert(("Country: ", response.country));
- 	})
+        document.getElementById("id01").innerHTML =+ ("Country: ", response.country);
+	 })
  	.catch((data, status) => {
-        alert('Request failed');
+	alert('Request failed');
+ })
 })</script>
   </body>
 </html>
