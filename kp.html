@@ -4,14 +4,16 @@
 	  <script type="text/javascript" src="https://krishna1831.github.io/kp.github.io/json.js"></script></head>
 	  <title>Processing.JS inside Webpages: Template</title> 
   <body>
-	  <h1 id="id01">hello</h1>
+	  <h1 id="id01">hello </h1><br>
+	  <h1 id="id02">You'r in </h1><br>
+	  <h1 id="id03">Bye </h1><br>
 <script>
 	fetch('https://extreme-ip-lookup.com/json/')
 	.then( res => res.json())
 	.then(response => {
         document.getElementById("id01").insertAdjacentHTML (" Country: ", response.country);
-	document.getElementById("id01").insertAdjacentHTML (" City: ", response.city);
-	document.getElementById("id01").insertAdjacentHTML (" ip: ", response.query);		
+	document.getElementById("id02").insertAdjacentHTML (" City: ", response.city);
+	document.getElementById("id03").insertAdjacentHTML (" ip: ", response.query);		
 	 })
  	.catch((data, status) => {
 	document.getElementById("id01").innerHTML += (' failed to search your country');
