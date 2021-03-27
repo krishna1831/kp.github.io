@@ -12,12 +12,13 @@
 	fetch('http://api.openweathermap.org/data/2.5/weather?q=oslo&appid=7e571b7d0d274bd3b3a613788fa878dd&units=metric')
 	.then( res => res.json())
 	.then(response => {
-        document.getElementById("id01").innerHTML += ("Country: ", response.json);
+        document.getElementById("id01").innerHTML += ("Country: ", response.);
 	document.getElementById("id02").innerHTML += (" City: ", response.city);
 	document.getElementById("id03").innerHTML += (" ip: ", response.query);
 	 })
  	.catch((data, status) => {
 	document.getElementById("id01").innerHTML += (' failed to search your country');
+	console.log(response);
  })</script>
   </body>
 </html>
