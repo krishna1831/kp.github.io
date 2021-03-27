@@ -9,10 +9,10 @@
 	  <h1 id="id02">You'r in </h1><br>
 	  <h1 id="id03">Bye </h1><br>
 <script>
-	fetch('https://extreme-ip-lookup.com/json/')
+	fetch('http://api.openweathermap.org/data/2.5/weather?q=oslo&appid=7e571b7d0d274bd3b3a613788fa878dd&units=metric')
 	.then( res => res.json())
 	.then(response => {
-        document.getElementById("id01").innerHTML += ("Country: ", response.country);
+        document.getElementById("id01").innerHTML += ("Country: ", response.weather.description);
 	document.getElementById("id02").innerHTML += (" City: ", response.city);
 	document.getElementById("id03").innerHTML += (" ip: ", response.query);
 	 })
