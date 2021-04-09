@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Table </title>
+
+<style>
+
+table, th, td {
+
+border: 1px solid black;
+border-collapse: separate;
+}
+td {
+border: 1lpx dotted black;
+border-collapse: separate;
+}
+th, td {
+padding:5px; 
+text-align: left;
+}
+#rl {background: coral;}
+#r2 {background: cyan;}
+#r3 {background: brown;}
+#r4 {background: cornsilk;}
+#r5 {background: yellow;}
+#r6 {background: orange;}
+</style></head>
+<body>
+<table>
+<tr id = "r1">
+<th> S_No </th> 
+<th> Emp - ID </th>
+<th> Emp - Name </th>
+<th colspan = "2"> Address</th>
+<th colspan="2"> Phone</th>
+</tr>
+<tr id = "r2">
+<td> 1. </td>
+<td> 0001</td> 
+<td> Veena M </td>
+<td> kudlegate </td>
+<td> kudlugate </td>
+<td> 5954698462</td>
+<td> 3515869653 </td>
+</tr>
+
+<tr id ="r3"> 
+<td> 2. </td>
+<td> 0002 </td> 
+<td> Pratap. N </td>
+<td> Kudlu </td> 
+<td>Kudlu gate </td>
+<td> 5946333624 </td>
+<td> 5451356925 </td>
+</tr>
+
+<tr id ="r4"> 
+<td> 3. </td>
+<td> 0003 </td> 
+<td> Vinay .V </td>
+<td> Kudlugate </td> 
+<td> Kudlugate </td>
+<td> 7575757575 </td>
+<td> 6566565656</td>
+</tr>
+
+<tr id ="r5"> 
+<td> 5. </td>
+<td> 0004 </td> 
+<td> Vidya </td>
+<td> Kudlu </td> 
+<td>Kudlu gate </td>
+<td> 5852857464 </td>
+<td> 5741555695 </td>
+</tr>
+
+<tr id ="r6"> 
+<td> 5. </td>
+<td> 0005 </td> 
+<td> Vishal </td>
+<td> Banashankari  </td> 
+<td> Kudlu gate </td>
+<td> 7418529635 </td>
+<td> 5485287695 </td>
+</tr>
+</table>
+</body>
+</html>
